@@ -7,12 +7,13 @@ Test your program with different example inputs, and comment your code.
 """
 
 def banner():
-    """ Display program name """
+    """ Display program name, using stars """
     message = 'Awesome camel case program'
     stars = '*' * len(message)
     print(f'\n{stars} \n{message} \n{stars}\n')
 
 def instructions():
+    """ Display instructions on how to use program """
     print('Enter a sentence and this program will convert it to camelcase.')
 # Print the welcoming banner    
 banner()
