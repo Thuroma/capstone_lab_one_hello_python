@@ -6,6 +6,15 @@ Optional extra question: print a warning message if the input will not produce a
 Test your program with different example inputs, and comment your code.  
 """
 
+def banner():
+    """ Display program name """
+    message = 'Awesome camel case program'
+    stars = '*' * len(message)
+    print(f'\n{stars} \n{message} \n{stars}\n')
+
+# Print the welcoming banner    
+banner()
+
 # Ask the user for a sentence
 userString = input('Enter a sentence: ')
 print(userString)
